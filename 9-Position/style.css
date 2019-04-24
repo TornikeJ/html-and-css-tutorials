@@ -1,0 +1,28 @@
+.wrap{
+    height: 600px;
+    widows: 600px;
+    background-color: blue;
+    position: relative;
+}
+.block{
+    height:50px;
+    width:100px;
+    background-color:white;
+    position: absolute;
+}
+.top-left{
+    top:20px;
+    left:20px;
+}
+.top-right{
+    top:20px;
+    right:20px;
+}
+.bottom-left{
+    bottom:20px;
+    left:20px;
+}
+.bottom-right{
+    bottom:20px;
+    right:20px;
+}
