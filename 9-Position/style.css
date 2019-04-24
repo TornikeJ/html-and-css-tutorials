@@ -1,27 +1,26 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
-.wrap{
-    padding:50px;
+.notification{
+    position: fixed;
+    top:30px;
+    right: 40px;
+    border:1px solid gray;
+    padding:15px;
 }
-.item{
-    position: relative;
-    display: inline-block;
-    margin-right:30px;
-    height: 50px;
-    width: 50px;
-    background-color:beige;
-    border-radius: 10px;
+p{
+    font-size:24px;
+    font-weight: 800px;
+    margin-top: 0;
 }
-.label{
-    position: absolute;
-    top:0;
-    right:0;
-    transform: translate(50%,-50%);
-    height: 20px;
-    background-color:red;
-    color:white;
-    border:1px solid white;
-    padding:1px 5px;
-    border-radius: 10px;
+.text{
+    display:block;
+    max-width: 300px;
+}
+.close-btn{
+    position:absolute;
+    top:10px;
+    right:10px;
+    color:gray;
+    text-decoration: none;
 }
