@@ -14,17 +14,6 @@ section{
 section > div{
     background-color:aqua;
 }
-.header{
-    grid-column-start:1;
-    grid-column-end:3;
-}
-.col-3{
-    grid-column-start:1;
-    grid-column-end:3;
-    width:60%;
-    justify-self: center;
-}
-.footer{
-    grid-column-start:1;
-    grid-column-end:3;
+.header, .footer{
+    grid-column : 1/4;
 }
